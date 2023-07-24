@@ -6,6 +6,7 @@ body {
 	padding: 0;
 	font-family: "Poppins", Arial;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
 a {
@@ -273,13 +274,14 @@ header {
 		position: absolute;
 		top: 100%;
 		right: -100%;
-		width: 300px;
-		height: 40vh;
+		width: 150px;
+		height: 25vh;
 		background: #4d9559;
 		display: flex;
 		align-items: center;
 		flex-direction: column;
-		padding: 50px 20px;
+		justify-content: center;
+		padding: 20px 20px;
 		transition: all .55s ease;
 	}
 	.navlist a {
@@ -289,7 +291,6 @@ header {
 	}
 	.navlist.open {
 		right: 0;
-
 	}
 }
 
